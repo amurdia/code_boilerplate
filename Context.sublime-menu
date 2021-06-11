@@ -1,0 +1,20 @@
+[
+	{ "caption": "-" },
+	{
+		"caption": "Boilerplate",
+		"children":
+		[
+			{ "caption": "Core", "command": "boiler_type" },
+			{ "caption": "Stackstorm", "children": [
+				{ "caption": "Sensor", "command": "boiler_stackstorm", "args": {"resource": "sensor"} },
+				{ "caption": "Trigger", "command": "boiler_stackstorm", "args": {"resource": "trigger"} },
+				{ "caption": "Rule", "command": "boiler_stackstorm", "args": {"resource": "rule"} },
+				{ "caption": "Alias", "command": "boiler_stackstorm", "args": {"resource": "alias"} },
+				{ "caption": "Action", "command": "boiler_stackstorm", "args": {"resource": "action"} },
+				{ "caption": "Workflow", "command": "boiler_stackstorm", "args": {"resource": "workflow"} },
+				{ "caption": "-"},
+				{ "caption": "Pack", "command": "boiler_stackstorm", "args": {"resource": "pack"} }
+			] }
+		]
+	}
+]

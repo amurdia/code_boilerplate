@@ -1,0 +1,20 @@
+[
+  {
+    "keys": [
+      "ctrl+alt+b"
+    ],
+    "command": "boiler_type"
+  },
+  {
+    "keys": [
+      "ctrl+alt+v"
+    ],
+    "command": "version_increment"
+  },
+  {
+    "keys": [
+      "ctrl+alt+s"
+    ],
+    "command": "section_title"
+  }
+]
